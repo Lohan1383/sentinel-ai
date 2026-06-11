@@ -1,0 +1,11 @@
+node_modules
+.pnpm-store
+.next
+dist
+coverage
+.env
+.env.*
+.DS_Store
+*.log
+legacy
+*_legacy_unreadable

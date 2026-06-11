@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Sentinel icon">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f5f4f" />
+      <stop offset="1" stop-color="#f57d2d" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="106" fill="url(#g)" />
+  <path d="M256 72l146 65v106c0 96-58 164-146 201-88-37-146-105-146-201V137l146-65z" fill="#fff8ea"/>
+  <path d="M256 128l86 38v68c0 60-34 102-86 131-52-29-86-71-86-131v-68l86-38z" fill="#0f5f4f"/>
+  <circle cx="256" cy="245" r="34" fill="#f57d2d"/>
+</svg>

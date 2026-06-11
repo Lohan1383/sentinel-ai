@@ -1,0 +1,49 @@
+:root {
+  --bg: #09060a;
+  --panel: rgba(8, 18, 20, 0.86);
+  --panel-strong: rgba(10, 23, 25, 0.94);
+  --line: rgba(120, 230, 223, 0.24);
+  --line-strong: rgba(120, 230, 223, 0.5);
+  --text: #e9f7f6;
+  --muted: #9fc7c4;
+  --accent: #82ece4;
+  --accent-soft: #cffffa;
+  --accent-deep: #2f8c86;
+  --green: #53d396;
+  --yellow: #7ce2d8;
+  --orange: #66c1ff;
+  --red: #4f9dff;
+  --shadow: 0 20px 50px rgba(4, 2, 6, 0.62);
+  --radius: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(circle at 13% 18%, rgba(116, 236, 228, 0.2), transparent 40%),
+    radial-gradient(circle at 88% 0%, rgba(90, 143, 255, 0.18), transparent 32%),
+    radial-gradient(circle at 54% 112%, rgba(32, 118, 112, 0.3), transparent 42%),
+    linear-gradient(170deg, #06090b 0%, #060d0f 46%, #071113 100%);
+  color: var(--text);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+}
+
+::selection {
+  background: rgba(130, 236, 228, 0.32);
+  color: #052625;
+}

@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: sentinel-api
+    env: node
+    buildCommand: pnpm install && pnpm --filter @sentinel/api build
+    startCommand: pnpm --filter @sentinel/api start
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
