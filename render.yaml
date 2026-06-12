@@ -3,8 +3,10 @@ services:
     name: sentinel-api
     runtime: node
     plan: free
-    buildCommand: pnpm install && pnpm --filter @sentinel/api build
+    buildCommand: pnpm install && pnpm --filter @sentinel/api... build
     startCommand: pnpm --filter @sentinel/api start
     envVars:
       - key: NODE_VERSION
         value: "20"
+      - key: PNPM_VERSION
+        value: "9"
