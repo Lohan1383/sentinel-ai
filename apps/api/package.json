@@ -6,12 +6,13 @@
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc -p tsconfig.json",
-    "start": "node dist/apps/api/src/index.js",
+    "start": "tsx src/index.ts",
     "lint": "eslint src --ext .ts",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "test": "vitest run"
   },
   "dependencies": {
+    "tsx": "^4.19.1",
     "@sentinel/shared": "workspace:*",
     "cors": "^2.8.5",
     "dayjs": "^1.11.13",
@@ -30,7 +31,6 @@
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
     "eslint": "^8.57.1",
-    "tsx": "^4.19.1",
     "typescript": "^5.6.3",
     "vitest": "^2.1.2"
   }
